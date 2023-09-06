@@ -117,7 +117,7 @@ a:hover {
     background-color: #F5F5F5;
 }
 
-.swith_container {
+.switch_container {
     width: 70px;
     height: 35px;
 
@@ -715,30 +715,30 @@ input:checked + .slider:before {
     justify-content: center;
 }
 
-.robotoo_30px, .robotoo_28px, .robotoo_24px, .robotoo_22px, .robotoo_16px {
+.roboto_30px, .roboto_28px, .roboto_24px, .roboto_22px, .roboto_16px {
     font-weight: 600;
     color: #000;
 }
 
-.robotoo_30px {
+.roboto_30px {
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.robotoo_28px {
+.roboto_28px {
     font-size: 28px;
 }
 
-.robotoo_24px {
+.roboto_24px {
     font-size: 24px;
 }
 
-.robotoo_22px {
+.roboto_22px {
     font-size: 22px;
 }
 
-.robotoo_20px {
+.roboto_20px {
     font-size: 20px;
 }
 

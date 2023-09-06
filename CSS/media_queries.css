@@ -27,7 +27,7 @@
         text-align: center;
     }
 
-    .swith_container {
+    .switch_container {
         width: 60px;
         height: 80px;
         padding-bottom: 10px;
@@ -222,7 +222,7 @@
         height: auto;
     }
 
-    .progmrams_container {
+    .programs_container {
         margin-bottom: 20px;
     }
 }
@@ -243,7 +243,7 @@
         height: 30;
     }
 
-    .progmrams_container {
+    .programs_container {
         width: auto;
         height: auto;
         gap: 30px;

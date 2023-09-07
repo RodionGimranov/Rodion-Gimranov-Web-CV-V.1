@@ -19,6 +19,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*Styles for animation*/
+.fade-in {
+    opacity: 0;
+    transform: translateY(5px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /*Header*/
 .header {
     position: fixed;
@@ -112,9 +124,12 @@ a {
     font-weight: 700;
 }
 
+.home_btn:hover, .project_btn:hover, .contact_btn:hover {
+    background-color: #F5F5F5;
+}
+
 a:hover {
     text-decoration: none;
-    background-color: #F5F5F5;
 }
 
 .switch_container {
@@ -308,11 +323,18 @@ input:checked + .slider:before {
     color: #000;
 }
 
+/*TEST OF ANIMATION ELEMENT*/
 .avatar2_img {
     width: 200px;
     height: 200px;
     border-radius: 100px;
     box-shadow: 15px 15px 20px 0px #B5B6BB, -15px -5px 20px 0px #B5B6BB;
+    animation: avatar_anim-2 10s linear infinite;
+}
+
+@keyframes avatar_anim-2 {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
 
 /*Section "My Project"*/
@@ -502,7 +524,7 @@ input:checked + .slider:before {
     background: linear-gradient(to right, #3D3BFF 50%, white 50%);
 }
 
-.progmrams_container {
+.programs_container {
     width: 250px;
     height: 61px;
     margin-bottom: 20px;
@@ -520,7 +542,9 @@ input:checked + .slider:before {
 
 .vs_code_icon:hover, .figma_icon:hover, .chatgpt_icon:hover {
     transform: scale(0.8);
+
 }
+
 
 /*Section "Contact Me"*/
 .contact_me_page {
@@ -549,6 +573,13 @@ input:checked + .slider:before {
     height: 200px;
     border-radius: 100px;
     box-shadow: 15px 15px 20px 0px #B5B6BB, -15px -5px 20px 0px #B5B6BB;
+
+    animation: avatar_anim-3 10s linear infinite;
+}
+
+@keyframes avatar_anim-3{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
 
 .contact_me_gray_block1 {
@@ -593,8 +624,8 @@ input:checked + .slider:before {
 /*Section "Visual Settings"*/
 .fo_fun_page {
     width: 100%;
-    height: 380px;
-    margin-bottom: 50px;
+    height: 345px;
+    margin-bottom: 25px;
 
     display: flex;
     flex-direction: row;
@@ -604,7 +635,7 @@ input:checked + .slider:before {
 
 .fo_fun_container {
     width: 1000px;
-    height: 380px;
+    height: 345px;
 
     display: flex;
     flex-direction: row;
@@ -614,7 +645,7 @@ input:checked + .slider:before {
 
 .fo_fun_gray_block1 {
     width: 380px;
-    height: 380px;
+    height: 345px;
     background-color: #F5F5F5;
     border-radius: 50px;
 
@@ -642,7 +673,7 @@ input:checked + .slider:before {
 
 .fonts_color_container {
     width: 580px;
-    height: 380px;
+    height: 345px;
 
     display: flex;
     justify-content: space-between;
@@ -742,7 +773,7 @@ input:checked + .slider:before {
     font-size: 20px;
 }
 
-.robotoo_16px {
+.roboto_16px {
     font-size: 16px;
 }
 

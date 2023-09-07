@@ -1,3 +1,12 @@
+/*Disable element animation*/
+@media (max-width: 799px) {
+    .fade-in {
+        opacity: 1;
+        transform: translateY(0);
+        transition: none;
+    }
+}
+
 /*Section "Header"*/
 @media (max-width: 580px) {
     .header_burger-btn {

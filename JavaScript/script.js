@@ -64,3 +64,20 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+// Animation of element
+function handleScroll() {
+    var elements = document.querySelectorAll('.fade-in');
+
+    elements.forEach(function(element) {
+        var rect = element.getBoundingClientRect();
+        var isVisible = (rect.top >= 0) && (rect.bottom <= window.innerHeight);
+
+        if (isVisible) {
+            element.classList.add('visible');
+        }
+    });
+}
+
+window.addEventListener('scroll', handleScroll);
+
+handleScroll();

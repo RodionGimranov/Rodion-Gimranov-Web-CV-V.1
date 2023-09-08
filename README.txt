@@ -36,7 +36,7 @@ normalize.css - (Сброс стилей CSS)
 white_style.css - (Светлая тема)
 
 -JS
-script.js - (Скрипт для смены темы, навигации по сайту и анимации)
+script.js - (Скрипты для смены темы сайта, навигации по сайту и анимации)
 
 -img
 Изображения программ, соц-сетей и аватарок
@@ -80,7 +80,7 @@ normalize.css - (CSS reset)
 white_style.css - (Light theme)
 
 -JS
-script.js - (Script to change theme, site navigation and animation)
+script.js - ((Scripts for changing the site theme, site navigation and animation)
 
 -img
 Images of programs, social networks, and avatars

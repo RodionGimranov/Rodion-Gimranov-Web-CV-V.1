@@ -1,8 +1,8 @@
 Привет👋, меня зовут Родион, и я начинающий Frontend разработчик, находящийся в поиске первой работы и стажировки в индустрии веб-разработки.
 
-Ссылка на сайт - https://rodion-gimranov.ru/
-
 Путь создания этого веб-сайта оказался для меня увлекательным и познавательным опытом. Этот проект - не только демонстрация моего текущего уровня навыков, но и шаг на пути обучения и самосовершенствования.
+
+Ссылка на сайт - https://rodion-gimranov.ru/
 
 На страницах этого сайта вы найдете краткую информацию обо мне и моем пути в мире веб-разработки. Я глубоко признателен за ваше внимание и интерес к моей работе!
 
@@ -44,9 +44,9 @@ script.js - (Скрипт для смены темы, навигации по с
 -------------------------------------------------------------------------------
 Hello👋, my name is Rodion, and I am an aspiring Frontend developer actively seeking my first job and internship opportunity in the web development industry.
 
-Link to web-site - https://rodion-gimranov.ru/
-
 The journey of creating this website has been both engaging and enlightening. This project serves not only as a showcase of my current skill set but also as a stepping stone in my path of learning and self-improvement.
+
+Link to web-site - https://rodion-gimranov.ru/
 
 Within the pages of this site, you will find a concise overview of me and my journey in the realm of web development. I deeply appreciate your attention and interest in my work!
 

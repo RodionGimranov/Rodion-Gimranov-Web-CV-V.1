@@ -24,7 +24,7 @@ body {
 .fade-in {
     opacity: 0;
     transform: translateY(5px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.5s ease, transform 1.5s ease;
 }
 
 .fade-in.visible {
@@ -62,6 +62,7 @@ body {
     justify-content: space-between;
 }
 
+/*Burger Menu*/
 .header_burger-btn {
     position: relative;
     width: 50px;
@@ -80,7 +81,7 @@ body {
 
 .header_burger-btn span {
     width: 45px;
-    height: 5px;
+    height: 4px;
     border-radius: 5px;
     background-color: #fff;
 }
@@ -119,7 +120,6 @@ a {
 .home_btn, .project_btn, .contact_btn {
     padding: 10px 10px;
     border-radius: 10px;
-
     font-size: 20px;
     font-weight: 700;
 }
@@ -133,7 +133,7 @@ a:hover {
 }
 
 .switch_container {
-    width: 70px;
+    width: 130px;
     height: 35px;
 
     display: flex;
@@ -144,6 +144,7 @@ a:hover {
 /* Theme Switcher */
 .switch {
     font-size: 17px;
+
     position: relative;
     display: inline-block;
     width: 60px;
@@ -191,6 +192,24 @@ input:checked + .slider:before {
     box-shadow: inset 15px -4px 0px 15px #fff000;
 }
 
+/*Language Switcher*/
+.language_btn {
+    width: 60px;
+    height: 35px;
+    background-color: #393939;
+    border-radius: 30px;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+}
+
 /*Section "Home"*/
 .home_page {
     width: 100%;
@@ -223,11 +242,28 @@ input:checked + .slider:before {
     box-shadow: none;
 }
 
-.greetings_text {
+.greetings_text_container {
+    width: auto;
+    height: 60px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greetings_text1 {
     font-size: 24px;
     font-weight: 700;
     color: #fff;
-    margin-top: 15px;
+    text-align: center;
+}
+
+.greetings_text2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
     text-align: center;
 }
 
@@ -294,7 +330,25 @@ input:checked + .slider:before {
     font-weight: 700;
 }
 
-.text_about_me {
+.text_about_me_container {
+    width: 630px;
+    height: 265px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_about_me1 {
+    width: 620px;
+    height: 253px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text_about_me2 {
     width: 620px;
     height: 253px;
     color: #fff;
@@ -456,20 +510,28 @@ input:checked + .slider:before {
     margin-top: 20px;
 }
 
-.my_tools_and_skills_block_container {
-    width: 1000px;
-    height: 190px;
+.text_my_tools_and_skills_container {
+    width: 500px;
+    height: auto;
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.text_my_tools_and_skills {
+.text_my_tools_and_skills1 {
     width: 500px;
-    height: 160px;
+    height: auto;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
 
+.text_my_tools_and_skills2 {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
     font-size: 24px;
     font-weight: 500;
     color: #fff;
@@ -648,6 +710,7 @@ input:checked + .slider:before {
     font-weight: 700;
     color: #fff;
     margin-top: 17px;
+    text-align: center;
 }
 
 .text_fo_fun {
@@ -700,6 +763,8 @@ input:checked + .slider:before {
     height: 150px;
     border-radius: 20px;
 
+    transition: 0.2s;
+
     font-size: 30px;
     font-weight: 700;
     color: #000;
@@ -722,6 +787,10 @@ input:checked + .slider:before {
 
 .color_4 {
     background-color: #F5F5F5;
+}
+
+.color_1:hover, .color_2:hover, .color_3:hover, .color_4:hover {
+    transform: scale(1.1);
 }
 
 .fonts_block {

@@ -1,4 +1,4 @@
-// Scroll to section
+// Scroll to Section
 document.addEventListener('DOMContentLoaded', function () {
     const projectBtn = document.querySelector('.project_btn');
     const contactBtn = document.querySelector('.contact_btn');
@@ -81,3 +81,27 @@ function handleScroll() {
 window.addEventListener('scroll', handleScroll);
 
 handleScroll();
+
+// Language Switcher
+function switchLanguage(lang) {
+    for (let key in LanguageVersions[lang]) {
+        const element = document.getElementById(key);
+        if (element) {
+            element.textContent = LanguageVersions[lang][key];
+        }
+    }
+}
+
+let isToggled = false;
+
+document.getElementById('language_switch').addEventListener('click', function() {
+    if (!isToggled) {
+        this.innerHTML = "Ru";
+        switchLanguage("ru");
+        isToggled = true;
+    } else {
+        this.innerHTML = "En";
+        switchLanguage("en");
+        isToggled = false;
+    }
+});

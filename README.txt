@@ -1,8 +1,8 @@
 Привет👋, меня зовут Родион, и я начинающий Frontend разработчик, находящийся в поиске первой работы и стажировки в индустрии веб-разработки.
 
-Путь создания этого веб-сайта оказался для меня увлекательным и познавательным опытом. Этот проект - не только демонстрация моего текущего уровня навыков, но и шаг на пути обучения и самосовершенствования.
-
 Ссылка на сайт - https://rodion-gimranov.ru/
+
+Путь создания этого веб-сайта оказался для меня увлекательным и познавательным опытом. Этот проект - не только демонстрация моего текущего уровня навыков, но и шаг на пути обучения и самосовершенствования.
 
 На страницах этого сайта вы найдете краткую информацию обо мне и моем пути в мире веб-разработки. Я глубоко признателен за ваше внимание и интерес к моей работе!
 
@@ -36,7 +36,8 @@ normalize.css - (Сброс стилей CSS)
 white_style.css - (Светлая тема)
 
 -JS
-script.js - (Скрипты для смены темы сайта, навигации по сайту и анимации)
+script.js - (Скрипт для смены темы, языка, навигации по сайту и анимации)
+RU_Language.js - (Версия сайта на Русском языке)
 
 -img
 Изображения программ, соц-сетей и аватарок
@@ -44,9 +45,9 @@ script.js - (Скрипты для смены темы сайта, навига�
 -------------------------------------------------------------------------------
 Hello👋, my name is Rodion, and I am an aspiring Frontend developer actively seeking my first job and internship opportunity in the web development industry.
 
-The journey of creating this website has been both engaging and enlightening. This project serves not only as a showcase of my current skill set but also as a stepping stone in my path of learning and self-improvement.
-
 Link to web-site - https://rodion-gimranov.ru/
+
+The journey of creating this website has been both engaging and enlightening. This project serves not only as a showcase of my current skill set but also as a stepping stone in my path of learning and self-improvement.
 
 Within the pages of this site, you will find a concise overview of me and my journey in the realm of web development. I deeply appreciate your attention and interest in my work!
 
@@ -80,7 +81,8 @@ normalize.css - (CSS reset)
 white_style.css - (Light theme)
 
 -JS
-script.js - ((Scripts for changing the site theme, site navigation and animation)
+script.js - (Script for changing theme, language, site navigation and animation)
+RU_Language.js - (Site version in Russian)
 
 -img
 Images of programs, social networks, and avatars

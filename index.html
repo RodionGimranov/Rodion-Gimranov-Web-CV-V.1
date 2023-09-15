@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Rodion Gimranov Web-CV</title>
+    <title>Web CV of Rodion Gimranov</title>
     <meta name="description" content="Rodion Gimranov Web-CV">
     <link rel="icon" href="img/Avatar_link.png">
     <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
@@ -19,32 +19,33 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9734ZYC0WE');
 </script>
 
+<script defer src="JavaScript/script.js"></script>
+<script defer src="JavaScript/RU_Language.js"></script>
+
 <body>
-    <script defer src="JavaScript/script.js"></script>
 
     <!--Header-->
     <header class="header open">
         <section class="header_container">
-            <section class="logo">
+            <a href="#"><section class="logo">
                 <h2 class="R_text_logo"> R.</h2>
                 <h2 class="G_text_logo"> G.</h2>
-            </section>
-
+            </section></a>
             <nav class="navigation_bar">
-                <a href="#" class="home_btn"> Home </a>
-                <a href="#my_project_page" class="project_btn"> Projects </a>
-                <a href="#contact_me_page" class="contact_btn"> Contacts </a>
-
+                <a href="#" class="home_btn" id="lang-home_btn"> Home </a>
+                <a href="#my_project_page" class="project_btn" id="lang-project_btn"> Projects </a>
+                <a href="#contact_me_page" class="contact_btn" id="lang-contact_btn"> Contacts </a>
                 <section class="switch_container">
                     <!--Theme Switcher-->
                     <label class="switch">
                         <input type="checkbox">
                         <span class="slider"></span>
                     </label>
+                    <!--Language Switcher-->
+                    <button class="language_btn" id="language_switch"> En </button>
                 </section>
             </nav>
             <!--Burger Menu-->
@@ -57,58 +58,53 @@
     </header>
 
     <!--Section "Home"-->
-    <section class="home_page">
+    <main class="home_page">
         <section class="home_page_container">
-
             <img class="avatar1_img" src="img/Avatar_1.jpg" alt="Avatar photo 1">
-
-            <h3 class="greetings_text"> Hi, I'm Rodion <br> Frontend Developer </h3>
-
-            <a href="https://drive.google.com/file/d/1ohuaFruRR-8114ztUe2ReSrANQ9e82TQ/view?usp=sharing" class="download_CV_btn"> Download CV </a>
+            <section class="greetings_text_container">
+                <h3 class="greetings_text1" id="lang-greetings_text1"> Hi, I'm Rodion </h3>
+                <h3 class="greetings_text2" id="lang-greetings_text2"> Frontend Developer </h3>
+            </section>
+            <a href="https://drive.google.com/file/d/1BssB5NMeAQvyR1atRXJXRtTpY2Y-QY7f/view?usp=sharing" class="download_CV_btn" id="lang-download_CV_btn"> Download CV </a>
         </section>
-    </section>
+    </main>
 
     <!--Section "About Me"-->
-    <section class="about_me_page _anim-items fade-in">
+    <article class="about_me_page _anim-items fade-in">
         <section class="about_me_container _anim-items fade-in">
-
             <article class="about_me_purple_block _anim-items fade-in">
-                <h2 class="about_me_name_page _anim-items fade-in"> About Me </h2>
-
-                <p class="text_about_me _anim-items fade-in"> I am a beginner frontend developer. I have been studying at the KFU Institute of Computational Mathematics and Information Technology for the past three years. My specialization lies in creating multi-page websites and crafting simple yet elegant designs. <br>
-                <br>
-                On my website, you can explore my portfolio showcasing my projects and the tools I utilize. If you have any questions or would like to collaborate with me, feel free to reach out. I will be happy to answer all your inquiries! </p>
-
-                <a href="#contact_me_page" class="contact_me_btn _anim-items fade-in"> Contact Me </a>
+                <h2 class="about_me_name_page _anim-items fade-in"
+                id="lang-about_me_name_page"> About Me </h2>
+                <section class="text_about_me_container">
+                    <p class="text_about_me1 _anim-items fade-in" id="lang-text_about_me1"> I am a beginner frontend developer. I have been studying at the KFU Institute of Computational Mathematics and Information Technology for the past three years. My specialization lies in creating multi-page websites and crafting simple yet elegant designs. </p>
+                    <p class="text_about_me2 _anim-items fade-in" id="lang-text_about_me2">
+                    On my website, you can explore my portfolio showcasing my projects and the tools I utilize. If you have any questions or would like to collaborate with me, feel free to reach out. I will be happy to answer all your inquiries! </p>
+                </section>
+                <a href="#contact_me_page" class="contact_me_btn _anim-items fade-in" id="lang-contact_me_btn"> Contact Me </a>
             </article>
-
             <img class="avatar2_img _anim-items fade-in" src="img/Avatar_2.jpg" alt="Avatar photo 2">
         </section>
-    </section>
+    </article>
 
     <!--Section "My Project"-->
     <section class="my_project_page fade-in" id="my_project_page">
         <section class="my_project_container fade-in">
-
-            <h2 class="my_project_name_page fade-in"> My Projects </h2>
-
+            <h2 class="my_project_name_page fade-in" id="lang-my_project_name_page"> My Projects </h2>
                 <section class="block_project_container fade-in">
                     <section class="project_block_1 fade-in">
-                        <section class="background_project1 fade-in"> In developing </section>
-                        <h3 class="name_of_project1 fade-in"> ToDo Web App </h3>
-                        <a href="https://github.com/RodionGimranov" class="more_info_btn1 fade-in"> More info</a>
+                        <section class="background_project1 fade-in" id="lang-background_project1"> In developing </section>
+                        <h3 class="name_of_project1 fade-in" id="lang-name_of_project1"> ToDo Web App </h3>
+                        <a href="https://github.com/RodionGimranov" class="more_info_btn1 fade-in" id="lang-more_info_btn1"> More info</a>
                     </section>
-
                     <section class="project_block_2 fade-in">
-                        <section class="background_project2 fade-in"> In developing </section>
-                        <h3 class="name_of_project2 fade-in"> Design Studio website </h3>
-                        <a href="https://github.com/RodionGimranov" class="more_info_btn2 fade-in" > More info</a>
+                        <section class="background_project2 fade-in" id="lang-background_project2"> In developing </section>
+                        <h3 class="name_of_project2 fade-in" id="lang-name_of_project2"> Design Studio website </h3>
+                        <a href="https://github.com/RodionGimranov" class="more_info_btn2 fade-in" id="lang-more_info_btn2" > More info</a>
                     </section>
-
                     <section class="project_block_3 fade-in">
-                        <section class="background_project3 fade-in"> In developing </section>
-                        <h3 class="name_of_project3 fade-in"> Zoo Shop website </h3>
-                        <a href="https://github.com/RodionGimranov" class="more_info_btn3 fade-in"> More info</a>
+                        <section class="background_project3 fade-in" id="lang-background_project3"> In developing </section>
+                        <h3 class="name_of_project3 fade-in"  id="lang-name_of_project3"> Zoo Shop website </h3>
+                        <a href="https://github.com/RodionGimranov" class="more_info_btn3 fade-in" id="lang-more_info_btn3"> More info</a>
                     </section>
             </section>
         </section>
@@ -116,33 +112,28 @@
 
     <!--Section "My tools and skills"-->
     <section class="my_tools_and_skills_page fade-in">
-
         <section class="my_tools_and_skills_container fade-in">
-
-            <h2 class="my_tools_and_skills_name_page fade-in"> My tools and skills </h2>
-
+            <h2 class="my_tools_and_skills_name_page fade-in" id="lang-my_tools_and_skills_name_page"> My tools and skills </h2>
             <section class="my_tools_and_skills_block_container fade-in">
-                <p class="text_my_tools_and_skills fade-in"> I use a variety of web development tools.<br><br>VS Code aids in writing clean code, Figma assists in creating project layouts, and ChatGPT enhances text readability and user interface design.</p>
-
+                <section class="text_my_tools_and_skills_container">
+                    <p class="text_my_tools_and_skills1 fade-in" id="lang-text_my_tools_and_skills1"> I use a variety of web development tools. </p>
+                    <p class="text_my_tools_and_skills2 fade-in" id="lang-text_my_tools_and_skills2">VS Code aids in writing clean code, Figma assists in creating project layouts, and ChatGPT enhances text readability and user interface design.</p>
+                </section>
                 <section class="charts_container fade-in">
-
                     <section class="html_chart fade-in">
                         <h3 class="name_chart_html fade-in"> HTML </h3>
                         <section class="line_chart_html fade-in"> </section>
                     </section>
-
                     <section class="css_chart fade-in">
                         <h3 class="name_chart_css fade-in"> CSS </h3>
                         <section class="line_chart_css fade-in"> </section>
                     </section>
-
                     <section class="js_chart fade-in">
                         <h3 class="name_chart_js fade-in"> JS </h3>
                         <section class="line_chart_js fade-in"> </section>
                     </section>
                 </section>
             </section>
-
             <section class="programs_container fade-in">
                 <a href="https://code.visualstudio.com/"> <img src="img/VS_Code_icon.png" class="vs_code_icon fade-in" alt="VS Code Icon"> </a>
                 <a href="https://www.figma.com/downloads/"> <img src="img/Figma_icon.png" class="figma_icon fade-in" alt="Figma Icon"> </a>
@@ -153,15 +144,10 @@
 
     <!--Section "Contact Me"-->
     <section class="contact_me_page fade-in" id="contact_me_page">
-
         <section class="contact_me_container fade-in">
-
             <img src="img/Avatar_3.jpg" class="avatar3_img fade-in" alt="Avatar photo 3">
-
             <section class="contact_me_gray_block1 fade-in">
-
-                <h1 class="text_contact_me fade-in">If you'd like to stay connected and keep up with my latest updates, visit my profiles on social media.</h1>
-
+                <h1 class="text_contact_me fade-in" id="lang-text_contact_me">If you'd like to stay connected and keep up with my latest updates, visit my profiles on social media.</h1>
                 <section class="social_media_container fade-in">
                     <a href="https://t.me/RodionGimranov"> <img src="img/Telegram_icon.png" class="telegram_icon fade-in" alt="Telegram Icon"> </a>
                     <a href="https://www.linkedin.com/in/rodiongimranov/"> <img src="img/LinkedIn_icon.png" class="linkedin_icon fade-in" alt="LinkedIn Icon"> </a>
@@ -176,8 +162,8 @@
     <section class="fo_fun_page fade-in">
         <section class="fo_fun_container fade-in">
             <section class="fo_fun_gray_block1 fade-in">
-                <h1 class="fo_fun_name_page fade-in"> Visual Settings </h1>
-                <p class="text_fo_fun fade-in"> In this section, I have compiled essential details regarding the color palette and text sizing employed throughout the website.</p>
+                <h1 class="fo_fun_name_page fade-in" id="lang-fo_fun_name_page"> Visual Settings </h1>
+                <p class="text_fo_fun fade-in" id="lang-text_fo_fun"> In this section, I have compiled essential details regarding the color palette and text sizing employed throughout the website.</p>
             </section>
             <section class="fonts_color_container fade-in">
                 <section class="color_block fade-in">
@@ -202,5 +188,6 @@
     <footer class="footer">
         <section class="footer_container"> Designed by Rodion Gimranov 2023 </section>
     </footer>
+
 </body>
 </html>

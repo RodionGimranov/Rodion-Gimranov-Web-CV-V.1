@@ -23,7 +23,7 @@ body {
 .fade-in {
     opacity: 0;
     transform: translateY(5px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.5s ease, transform 1.5s ease;
 }
 
 .fade-in.visible {
@@ -81,7 +81,7 @@ body {
 
 .header_burger-btn span {
     width: 45px;
-    height: 5px;
+    height: 4px;
     border-radius: 5px;
     background-color: #000;
 }
@@ -97,6 +97,7 @@ body {
     color: #000;
     font-size: 30px;
     font-weight: 700;
+    border-radius: 10px;
 }
 
 .navigation_bar {
@@ -133,7 +134,7 @@ a:hover {
 }
 
 .switch_container {
-    width: 70px;
+    width: 130px;
     height: 35px;
 
     display: flex;
@@ -191,6 +192,24 @@ input:checked + .slider:before {
     box-shadow: inset 15px -4px 0px 15px #fff000;
 }
 
+/*Language Switcher*/
+.language_btn {
+    width: 60px;
+    height: 35px;
+    background-color: #393939;
+    border-radius: 30px;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+}
+
 /*Section "Home"*/
 .home_page {
     width: 100%;
@@ -223,11 +242,28 @@ input:checked + .slider:before {
     box-shadow: 15px 15px 20px 0px #B5B6BB, -15px -5px 20px 0px #B5B6BB;
 }
 
-.greetings_text {
+.greetings_text_container {
+    width: auto;
+    height: 60px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greetings_text1 {
     font-size: 24px;
     font-weight: 700;
     color: #000;
-    margin-top: 15px;
+    text-align: center;
+}
+
+.greetings_text2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
     text-align: center;
 }
 
@@ -293,7 +329,25 @@ input:checked + .slider:before {
     font-weight: 700;
 }
 
-.text_about_me {
+.text_about_me_container {
+    width: 630px;
+    height: 265px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_about_me1 {
+    width: 620px;
+    height: 253px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text_about_me2 {
     width: 620px;
     height: 253px;
     color: #000;
@@ -323,7 +377,6 @@ input:checked + .slider:before {
     color: #000;
 }
 
-/*TEST OF ANIMATION ELEMENT*/
 .avatar2_img {
     width: 200px;
     height: 200px;
@@ -472,10 +525,28 @@ input:checked + .slider:before {
     align-items: flex-start;
 }
 
-.text_my_tools_and_skills {
+.text_my_tools_and_skills_container {
     width: 500px;
-    height: 160px;
+    height: auto;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_my_tools_and_skills1 {
+    width: 500px;
+    height: auto;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
+.text_my_tools_and_skills2 {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
     font-size: 24px;
     font-weight: 500;
     color: #000;
@@ -544,7 +615,6 @@ input:checked + .slider:before {
     transform: scale(0.8);
 
 }
-
 
 /*Section "Contact Me"*/
 .contact_me_page {
@@ -660,6 +730,7 @@ input:checked + .slider:before {
     font-weight: 700;
     color: #000;
     margin-top: 17px;
+    text-align: center;
 }
 
 .text_fo_fun {
@@ -712,6 +783,8 @@ input:checked + .slider:before {
     height: 150px;
     border-radius: 20px;
 
+    transition: 0.2s;
+
     font-size: 30px;
     font-weight: 700;
     color: #000;
@@ -734,6 +807,10 @@ input:checked + .slider:before {
 
 .color_4 {
     background-color: #F5F5F5;
+}
+
+.color_1:hover, .color_2:hover, .color_3:hover, .color_4:hover {
+    transform: scale(1.1);
 }
 
 .fonts_block {

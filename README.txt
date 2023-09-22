@@ -27,7 +27,7 @@
 Проект состоит из:
 
 -HTML
- index.html - (Основной файл HTML)
+ main.html - (Основной файл HTML)
 
 -CSS
 black_style.css - (Темная тема сайта)
@@ -72,7 +72,7 @@ The site is thoughtfully divided into sections, each presenting unique informati
 The project consists of:
 
 -HTML
-index.html - (Main HTML file)
+main.html - (Main HTML file)
 
 -CSS
 black_style.css - (Dark theme of the site)

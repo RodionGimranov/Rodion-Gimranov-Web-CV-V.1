@@ -449,6 +449,11 @@ input:checked + .slider:before {
     color: #000;
 }
 
+.image_project_2 {
+    width: 130px;
+    height: 200px;
+}
+
 .name_of_project1, .name_of_project2, .name_of_project3 {
     font-size: 22px;
     font-weight: 700;

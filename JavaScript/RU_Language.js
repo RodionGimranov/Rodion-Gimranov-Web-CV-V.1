@@ -24,8 +24,7 @@ const LanguageVersions = {
         "lang-name_of_project1": "ToDo Web App",
         "lang-more_info_btn1": "More info",
 
-        "lang-background_project2": "In developing",
-        "lang-name_of_project2": "Design Studio website",
+        "lang-name_of_project2": "Web-Calculator",
         "lang-more_info_btn2": "More info",
 
         "lang-background_project3": "In developing",
@@ -68,8 +67,7 @@ const LanguageVersions = {
         "lang-name_of_project1": "Веб приложение ToDo",
         "lang-more_info_btn1": "Подробнее",
 
-        "lang-background_project2": "В разработке",
-        "lang-name_of_project2": "Сайт Студии дизайна",
+        "lang-name_of_project2": "Веб-Калькулятор",
         "lang-more_info_btn2": "Подробнее",
 
         "lang-background_project3": "В разработке",

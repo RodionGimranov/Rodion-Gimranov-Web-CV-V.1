@@ -435,6 +435,7 @@ input:checked + .slider:before {
     border-radius: 50px;
 
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -453,6 +454,11 @@ input:checked + .slider:before {
     font-size: 28px;
     font-weight: 700;
     color: #000;
+}
+
+.image_project_2 {
+    width: 130px;
+    height: 200px;
 }
 
 .name_of_project1, .name_of_project2, .name_of_project3 {

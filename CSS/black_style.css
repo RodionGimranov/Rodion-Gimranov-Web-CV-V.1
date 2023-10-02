@@ -433,7 +433,7 @@ input:checked + .slider:before {
     align-items: center;
 }
 
-.background_project1, .background_project2, .background_project3 {
+.background_project1, .background_project3 {
     width: 290px;
     height: 234px;
     background-color: #444444;
@@ -449,10 +449,22 @@ input:checked + .slider:before {
     color: #000;
 }
 
-.image_project_2 {
-    width: 130px;
-    height: 200px;
+.background_project2 {
+    width: 290px;
+    height: 234px;
+    background-color: #444444;
+    border-radius: 50px;
+    margin-top: 10px;
+    gap: 3px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 
 .name_of_project1, .name_of_project2, .name_of_project3 {
     font-size: 22px;

@@ -440,7 +440,7 @@ input:checked + .slider:before {
     align-items: center;
 }
 
-.background_project1, .background_project2, .background_project3 {
+.background_project1, .background_project3 {
     width: 290px;
     height: 234px;
     background-color: #fff;
@@ -456,9 +456,46 @@ input:checked + .slider:before {
     color: #000;
 }
 
-.image_project_2 {
-    width: 130px;
-    height: 200px;
+.background_project2 {
+    width: 290px;
+    height: 234px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+    gap: 3px;
+    overflow: hidden;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row_1, .row_3 {
+    animation: row1-row3 10s linear infinite;
+}
+
+.row_2, .row_4 {
+    animation: row2-row4 10s linear infinite;
+}
+
+@keyframes row1-row3 {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(0, 15%, 0);
+    }
+}
+
+@keyframes row2-row4 {
+    0% {
+      transform: translate3d(0, -0, 0);
+    }
+    50% {
+      transform: translate3d(0, -15%, 0);
+    }
 }
 
 .name_of_project1, .name_of_project2, .name_of_project3 {

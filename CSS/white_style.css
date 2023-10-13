@@ -210,6 +210,10 @@ input:checked + .slider:before {
     color: #fff;
 }
 
+.language_btn:active {
+    scale: 0.95;
+}
+
 /*Section "Home"*/
 .home_page {
     width: 100%;
@@ -288,6 +292,11 @@ input:checked + .slider:before {
     color: #fff;
 }
 
+.download_CV_btn:active {
+    scale: 0.95;
+}
+
+
 /*Section "About Me"*/
 .about_me_page {
     max-width: 100%;
@@ -362,7 +371,6 @@ input:checked + .slider:before {
     border-radius: 100px;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
 
-
     font-size: 16px;
     font-weight: 700;
     color: #000;
@@ -376,6 +384,11 @@ input:checked + .slider:before {
     background-color: #DDDDDD;
     color: #000;
 }
+
+.contact_me_btn:active {
+    scale: 0.95;
+}
+
 
 .avatar2_img {
     width: 200px;
@@ -508,6 +521,10 @@ input:checked + .slider:before {
 .more_info_btn1:hover, .more_info_btn2:hover, .more_info_btn3:hover {
     background-color: #000;
     color: #fff;
+}
+
+.more_info_btn1:active, .more_info_btn2:active, .more_info_btn3:active {
+    scale: 0.95;
 }
 
 .more_info_btn1, .more_info_btn2, .more_info_btn3 {
@@ -854,6 +871,10 @@ input:checked + .slider:before {
 
 .color_1:hover, .color_2:hover, .color_3:hover, .color_4:hover {
     transform: scale(1.1);
+}
+
+.color_1:active, .color_2:active, .color_3:active, .color_4:active {
+    scale: 0.95;
 }
 
 .fonts_block {

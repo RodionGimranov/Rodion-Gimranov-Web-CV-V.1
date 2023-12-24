@@ -20,7 +20,7 @@
 ## 🛠 Технологии
 
 - **HTML**
-  - main.html - (Основной файл HTML)
+  - index.html - (Основной файл HTML)
 
 - **CSS**
   - black_style.css - (Темная тема сайта)
@@ -76,7 +76,7 @@ Within the pages of this site, you will find a concise overview of me and my jou
 ## 🛠 Technologies
 
 - **HTML**
-  - main.html - (Main HTML file)
+  - index.html - (Main HTML file)
 
 - **CSS**
   - black_style.css - (Dark Theme)
